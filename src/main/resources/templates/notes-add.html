@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Adding note</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+
+<div class="container mt-5 mb-5">
+    <h1>Adding Note</h1>
+    <form action="/notes/add" method="post">
+        <label>
+            <input type="text" name="title" placeholder="Title of the note" class="form-control">
+            <br>
+        </label>
+        <label>
+            <input type="text" name="text" placeholder="Text of the note" class="form-control">
+            <br>
+        </label>
+        <label>
+            <textarea type="text" name="authorName" placeholder="Name of the author" class="form-control"></textarea>
+        </label>
+        <button type="submit" class="btn btn-success">Finished</button>
+    </form>
+</div>
+</body>
+</html>
