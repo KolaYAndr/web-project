@@ -6,9 +6,9 @@
 Сам сайт будет загружен на localhost/8080
 
 Техническое обзор:
-Разметка - HTML + Thymeleaf
-Стили - CSS + Bootstrap
-База данных - MySQL
+Разметка - HTML + Thymeleaf,
+Стили - CSS + Bootstrap,
+База данных - MySQL,
 Бэк - Java Spring
 
 Описание:
